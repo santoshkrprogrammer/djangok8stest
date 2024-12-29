@@ -26,7 +26,7 @@ spec :
     spec :
       containers :
       - name : djangohelloworld
-        image : santoshkr567/testdjangoimage
+        image : santoshkr567/djangoapp:latest
         ports :
           - containerPort : 8000
         imagePullPolicy : Always

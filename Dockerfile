@@ -1,4 +1,7 @@
 FROM python:3.11.4-alpine
+# Set environment variables
+ENV PYTHONDONTWRITEBYTECODE=1    
+ENV PYTHONUNBUFFERED=1           
 RUN mkdir /app
 WORKDIR /app
 COPY / .
