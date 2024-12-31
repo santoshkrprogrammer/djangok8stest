@@ -15,7 +15,7 @@ kind : Deployment
 metadata :
   name : djangohelloworld
 spec :
-  replicas : 4
+  replicas : 1
   selector :
     matchLabels :
       app : djangohelloworld
